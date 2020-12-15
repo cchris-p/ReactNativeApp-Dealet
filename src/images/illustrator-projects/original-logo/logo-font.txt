@@ -4,3 +4,5 @@ colors //
 e40066 - red
 03cea4 - green
 345995 - blue
+
+gradient red 
