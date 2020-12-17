@@ -6,32 +6,33 @@ import {
   Button,
   TouchableOpacity,
   Text,
+  Animated
 } from "react-native";
-import Animated from 'react-native-reanimated';
+// import Animated from 'react-native-reanimated';
 
 
-class LogoMove extends Component {
-    state = {
-        position: new Animated.ValueXY(0),
-    };
+// class LogoMove extends Component {
+//     state = {
+//         position: new Animated.ValueXY(0),
+//     };
 
-    onLoad = () => {
-        Animated.timing(this.state.position.y, {
-          toValue: 1,
-          duration: 700,
-          useNativeDriver: true,
-        }).start();
-    };
+//     onLoad = () => {
+//         Animated.timing(this.state.position.y, {
+//           toValue: 1,
+//           duration: 700,
+//           useNativeDriver: true,
+//         }).start();
+//     };
 
       
-    render() {
-        return (
-            <Animated.Image>
+//     render() {
+//         return (
+//             <Animated.Image>
 
-            </Animated.Image>
-          ); 
-    }
-}
+//             </Animated.Image>
+//           ); 
+//     }
+// }
 
 class ButtonMove extends Component {
 
