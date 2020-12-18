@@ -17,9 +17,6 @@ import Feather from 'react-native-vector-icons/Feather';
 import { useTheme } from 'react-native-paper';
 import { AuthContext } from '../context';
 
-// import { Users } from '../model/users.js';
-
-
 const Users = [
 {
     id: 1, 
@@ -115,8 +112,6 @@ const SignInScreen = ({navigation}) => {
     }
 
     const loginHandle = (userName, password) => {
-
-
 
         const foundUser = Users.filter( item => {
             return userName == item.username && password == item.password;
